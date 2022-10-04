@@ -25,11 +25,11 @@ cfg = {
 
 cfg_128 = cfg.dup
 cfg_128["cipher"] = "AES-128-CBC"
-cfg_128["auth"] = "SHA256"
+cfg_128["digest"] = "SHA256"
 
 cfg_256 = cfg.dup
 cfg_256["cipher"] = "AES-256-GCM"
-cfg_256["auth"] = "SHA256"
+cfg_256["digest"] = "SHA256"
 
 cfg_128 = {
   id: "cfg128",
