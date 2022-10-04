@@ -16,7 +16,7 @@ tls_wrap = read_tls_wrap("auth", 1, "../static/ta.key", 1)
 
 cfg = {
   ca: ca,
-  clientCertificatea: client,
+  clientCertificate: client,
   clientKey: key,
   compressionFraming: 0,
   tlsWrap: tls_wrap,
